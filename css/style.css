@@ -25,14 +25,14 @@ header{
   flex-direction: column;
 }
 
-
 .nav_links{
+  text-decoration: none;
   display:flex;
   flex-direction: row;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  background-color: lightblue;
+  background-color: lightgray;
   font-family:"Georgia";
   font-size: 30px;
 }
@@ -46,6 +46,26 @@ header{
   color: rgb(185, 25, 25);
 }
 
+.nav_index{
+  text-decoration: none;
+  background-color: rgb(21, 189, 245);
+}
+
+.nav_about{
+  text-decoration: none;
+  background-color: rgb(21, 189, 245)
+}
+
+.nav_contact{
+  text-decoration: none;
+  background-color: rgb(21, 189, 245);
+}
+
+.nav_work{
+  text-decoration: none;
+  background-color: rgb(21, 189, 245)
+}
+
 .nav_links a:hover {
   background-color: rgb(253, 8, 8);
   color: black;
@@ -54,6 +74,7 @@ header{
 .indexbg_logo{
   background-image: url("../images/JM\ logo\(red\)\ copy.png");
 }
+
 
 #mainheader{
   font-size: 60px;
@@ -86,7 +107,7 @@ margin: 0;
   box-shadow: 0 0 10px rgb(10, 9, 9);
 }
 
-.main{
+.indexbody{
   font-family: 'Trebuchet MS';
   font-size: 20px;
 
@@ -129,25 +150,28 @@ figure {
   align-items: center;
   width: 150px;
   height: auto;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+
 }
 
 .aboutmain p{
   font-family: 'Trebuchet MS';
-
+  text-align: center;
 }
 
 .grid-gallery{
   display: grid;
-  grid-template-columns: auto auto;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  width: 90%;
+  grid-gap: 50px;
 }
 
 .grid-gallery img{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 200px;
+  width: 100%;
   height: auto;
-  padding: 10px;
 }
 
 .grid-gallery img:hover{
@@ -213,11 +237,6 @@ textarea{
 }
 
 
-input[type=checkbox]{
-    display:inline;
-    width:inherit;
-}
-
 input[type=submit] {
   background-color: #38803C;
   color: white;
@@ -233,13 +252,15 @@ input[type=submit]:hover {
 }
 
 footer{
-    position: relative;
+    position: fixed;
     bottom: 0%;
     width:100%;
-    background-color: rgb(88, 86, 86);
+    background-color: rgb(248, 4, 4);
     color: white;
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
+    font-style: bold;
+    font-size: 15px;
     
 }
 
