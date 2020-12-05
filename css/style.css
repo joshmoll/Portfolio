@@ -119,7 +119,7 @@ nav a{
 
 @keyframes typing{
   from {width: 5%}
-  to {width: 100%}
+  to {width: 70%}
 }
 
 @keyframes blink-caret {
@@ -339,13 +339,7 @@ footer{
   }
 }
 
-@media all and (min-width: 800px){
-  .nav_links{
-    flex-direction: row;
-  }
-}
-
-@media all and (min-width:800px){
+@media screen and (min-width: 800px){
   @keyframes typing{
     from {width: 0%}
     to {width: 42%}
@@ -353,12 +347,17 @@ footer{
   #mainheader h1, h1{
     letter-spacing: .1em;
   }
+  .nav_links{
+    flex-direction: row;
+  }
+  .grid-gallery {
+    grid-template-columns: 1fr 1fr 1fr
 }
 
-@media all and (min-width:1000px){
+@media screen and (min-width:1000px){
   @keyframes typing{
     from {width: 0%}
-    to {width: 29%}
+    to {width: 45%}
   }
   #mainheader h1, h1{
     letter-spacing: .3em;
@@ -366,8 +365,7 @@ footer{
   .nav_links{
     justify-content: left;
   }
-  .nav_links{
-    padding: 20px 20px 20px 20px;
+  .grid-gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}
-
+}}
