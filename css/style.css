@@ -38,11 +38,10 @@ nav a{
   text-decoration: none;
   display:flex;
   flex-direction: column;
-  justify-content: center;
   justify-content: space-around;
   align-items: center;
   background-color: lightgray;
-  font-family:"Georgia";
+  font-family:"Cormorant";
   font-size: 30px;
   padding: 30px;
 }
@@ -108,14 +107,23 @@ nav a{
 
 
 
- #mainheader h1, h1{
+ #workheader h1, #indexheader h1, .main_about h1, #formheader h1{
   overflow: hidden;
   border-right: .10em solid red;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .01em;
   animation: typing 2.5s steps(30), blink-caret .65s step-end infinite;
+  font-size: 40px;
+  font-family: "Arvo";
 }
+
+#workheader h2{
+  font-family: "Bungee Shade";
+  font-size: 30px;
+  padding-top: 20px;
+}
+
 
 @keyframes typing{
   from {width: 5%}
@@ -127,21 +135,29 @@ nav a{
   50% { border-color: red; }
 } 
 
-#mainheader{
+#indexheader{
   font-size: 40px;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:"Arvo";
+}
+
+#indexheader h2{
+  font-family: "Bungee Shade";
+  padding-top: 50px;
 }
 
 body{
-margin: 5%;
+margin: 0%;
 line-height: 1.5;
 }
 
-.indexcontent {
+.indexcontent{
   font-style: italic;
   text-align: center;
   padding: 50px;
+  font-family: "Bungee Shade";
+  font-size: 35px;
+
 }
 
 .indeximage{
@@ -161,37 +177,36 @@ line-height: 1.5;
 }
 
 .indexbody{
-  font-family: 'Trebuchet MS';
+  font-family:"Cormorant";
   font-size: 20px;
   text-align: center;
-
+  margin: 5%;
 }
+
 footer {
   text-align: center;
   padding-top: 10px;
 }
 
 .main_about {
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
-}
-
-.main_about{
- text-align: center; 
+  font-family: "Arvo";
 }
 
 #headshot{
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
-  
-}
-#headshot img{
-  width: 100%;
+  margin: 5%;
+  width: 90%;
+  grid-gap: 10px;
+  overflow: hidden;
+  top: -50px;
 }
 
-.head {
-  grid-row: 1/4;
+#headshot img{
+  width: 100%;
 }
 
 .logos{
@@ -203,7 +218,7 @@ figure {
   border-radius: 15px;
 }
 
-.backgroundpics{
+/* .backgroundpics{
   display: flex;
   flex-direction: row;
   align-items: space-between;
@@ -217,12 +232,25 @@ figure {
 
   top: 250px;
   right: 100px;
+} */
+
+
+.aboutmain{ 
+  margin: 5%;
+}
+.aboutmain p{
+  font-family: 'Cormorant';
+  font-size: 20px;
+  text-align: left;
+  margin: 5%;
 }
 
-.aboutmain p{
-  font-family: 'Trebuchet MS';
-  text-align: center;
+.aboutmain h2{
+  font-size: 30px;
+  
+  font-family:"Bungee Shade";
 }
+
 
 .grid-gallery{
   display: grid;
@@ -254,7 +282,13 @@ figcaption{
 }
 
 #formheader h1{
-  font-size: 60px;
+  font-size: 40px;
+  font-family: "Arvo";
+}
+
+#formheader h2{
+font-family: "Bungee Shade";
+font-size: 30px;
 }
 
 body {
@@ -321,7 +355,7 @@ footer{
     bottom: 0%;
     width: 100%;
     background-color: lightgray;
-    color: black;
+    color: red;
     padding-top: 10px;
     text-align: center;
     font-style: bold;
@@ -351,8 +385,10 @@ footer{
     flex-direction: row;
   }
   .grid-gallery {
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+
 
 @media screen and (min-width:1000px){
   @keyframes typing{
