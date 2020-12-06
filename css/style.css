@@ -120,14 +120,14 @@ nav a{
 
 #workheader h2{
   font-family: "Bungee Shade";
-  font-size: 30px;
-  padding-top: 20px;
+  font-size: 25px;
+  padding-top: 40px;
 }
 
 
 @keyframes typing{
   from {width: 5%}
-  to {width: 70%}
+  to {width: 100%}
 }
 
 @keyframes blink-caret {
@@ -157,7 +157,6 @@ line-height: 1.5;
   padding: 50px;
   font-family: "Bungee Shade";
   font-size: 35px;
-
 }
 
 .indeximage{
@@ -238,16 +237,16 @@ figure {
 .aboutmain{ 
   margin: 5%;
 }
-.aboutmain p{
+
+.aboutmain p, ul{
   font-family: 'Cormorant';
   font-size: 20px;
   text-align: left;
-  margin: 5%;
+  margin: 3%;
 }
 
 .aboutmain h2{
-  font-size: 30px;
-  
+  font-size: 25px;
   font-family:"Bungee Shade";
 }
 
@@ -275,10 +274,11 @@ box-shadow: 0 0 10px #ccc;
 
 figcaption{
   position: relative;
-  font-size: 12px;
+  font-size: 18px;
   font-style: italic;
   padding: .5px;
   text-align: center;
+  font-family: "Comorant";
 }
 
 #formheader h1{
@@ -288,11 +288,13 @@ figcaption{
 
 #formheader h2{
 font-family: "Bungee Shade";
-font-size: 30px;
+font-size: 25px;
+padding-top: 50px;
 }
 
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Carmorant";
 }
 
 form {
