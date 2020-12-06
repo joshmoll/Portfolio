@@ -100,7 +100,7 @@ nav a{
   to{border-right-color: transparent;}
 }
 
- */
+  */
 
 
 
@@ -126,8 +126,8 @@ nav a{
 
 
 @keyframes typing{
-  from {width: 5%}
-  to {width: 100%}
+  from {width: 0%}
+  to {width: 67%}
 }
 
 @keyframes blink-caret {
@@ -196,9 +196,8 @@ footer {
 #headshot{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 200px 200px;
-  margin: 5%;
-  width: 90%;
+  margin: 10%;
+  width: 400px;
   grid-gap: 10px;
   overflow: hidden;
   top: -50px;
@@ -242,7 +241,6 @@ figure {
   font-family: 'Cormorant';
   font-size: 20px;
   text-align: left;
-  margin: 3%;
 }
 
 .aboutmain h2{
@@ -389,6 +387,10 @@ footer{
   .grid-gallery {
     grid-template-columns: 1fr 1fr 1fr;
 }
+#headshot{
+  margin: 18%;
+  width: 600px;
+}
 
 
 
@@ -406,4 +408,8 @@ footer{
   .grid-gallery {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+#headshot{
+  margin: 25%;
+  width: 700px;
+}
 }}
