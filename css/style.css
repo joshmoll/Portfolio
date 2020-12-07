@@ -366,6 +366,7 @@ footer{
   h1{
     animation: none;
     border-right: white;
+  }
 }
 
 @media screen and (min-width: 800px){
@@ -386,20 +387,19 @@ footer{
 #aboutmeimgs{
   width: 700px;
   height: 550px;
-
 }
 #aboutmeimgs img{
   width: 100%;
   height: 100%;
+  }
 }
-
-
 
 @media screen and (min-width:1000px){
   @keyframes typing{
     from {width: 0%}
     to {width: 45%}
   }
+
   #mainheader h1, h1{
     letter-spacing: .3em;
   }
@@ -413,10 +413,9 @@ footer{
   #aboutmeimgs{
     width: 900px;
     height: 750px;
-  
   }
   #aboutmeimgs img{
     width: 100%;
     height: 100%;
   }
-}}}
+}
