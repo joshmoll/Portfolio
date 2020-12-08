@@ -367,6 +367,9 @@ footer{
     animation: none;
     border-right: white;
   }
+  #workheader h1, #indexheader h1, .main_about h1, #formheader h1{
+    animation: none;
+  }
 }
 
 @media screen and (min-width: 800px){
