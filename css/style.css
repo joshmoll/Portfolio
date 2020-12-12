@@ -84,29 +84,6 @@ nav a{
   background-image: url("../images/JM\ logo\(red\)\ copy.png");
 }
 
-
-/* 
-#mainheader {
-  animation: typewriter 2s steps(15) 1s 1 normal both,
-  blinkTextCursor 1000ms steps(60) infinite normal;
-}
-
-@keyframes typewriter{
-  from{width: 10em;}
-  to{width: 15em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-
-  */
-
-
-
-
-
-
  #workheader h1, #indexheader h1, .main_about h1, #formheader h1{
   overflow: hidden;
   border-right: .10em solid red;
@@ -214,23 +191,6 @@ footer {
 figure {
   border-radius: 15px;
 }
-
-/* .backgroundpics{
-  display: flex;
-  flex-direction: row;
-  align-items: space-between;
-}
-.backgroundpics img{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 150px;
-  height: auto;
-
-  top: 250px;
-  right: 100px;
-} */
-
 
 .aboutmain{ 
   margin: 5%;
@@ -375,10 +335,10 @@ footer{
 @media screen and (min-width: 800px){
   @keyframes typing{
     from {width: 0%}
-    to {width: 42%}
+    to {width: 63%}
   }
-  #mainheader h1, h1{
-    letter-spacing: .1em;
+  #workheader h1, #indexheader h1, .main_about h1, #formheader h1{
+    letter-spacing: .3em;
   }
   .nav_links{
     flex-direction: row;
@@ -403,8 +363,8 @@ footer{
     to {width: 45%}
   }
 
-  #mainheader h1, h1{
-    letter-spacing: .3em;
+  #workheader h1, #indexheader h1, .main_about h1, #formheader h1{
+    letter-spacing: .5em;
   }
   .nav_links{
     justify-content: left;
